@@ -24,5 +24,5 @@ while destinations:
     starting_point = closest_destination
 
 
-min_sorted_destinations = min_sorted_destinations[::-1] + [start]
+min_sorted_destinations = min_sorted_destinations[::-1]
 print(min_sorted_destinations)
