@@ -6,7 +6,7 @@ import cv2
 
 class VideoSubscriber(Node):
     def __init__(self):
-        super().__init__('image_subscriber')
+        super().__init__('video_subscriber')
         self.subscription = self.create_subscription(
             Image,
             '/camera/image_raw',
