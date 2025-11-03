@@ -25,7 +25,6 @@
     </inertial>
   </link>
 
-  <!-- Gazebo plugin to apply velocity directly -->
   <gazebo>
     <plugin name="gazebo_ros_simple_velocity" filename="libgazebo_ros_planar_move.so">
       <ros>
